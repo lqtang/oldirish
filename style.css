@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i|Quattrocento+Sans:400,400i");
+
+body {
+  background-color: #009688;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #212121;
+  height: 100%;
+  min-width: 25%;
+}
+
+#navbar-header {
+  font-size: 20px;
+}
+
+header {
+  color: #ffc107;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #009688;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+#irish {
+  font-family: "PT Serif", serif;
+  font-size: 45px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #009688;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main {
+  float: right;
+  margin-right: 50px;
+  width: 70%;
+}
+
+p {
+  color: #212121;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 18px;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+code {
+  background-color: #ffc107;
+  color: #00796b;
+  font-size: 22px;
+  font-family: "PT Serif", serif;
+  margin-left: 25%;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+li {
+  color: #212121;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffc107;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #212121;
+}
+
+.link-button {
+  text-align: right;
+  margin-right: 30%;
+  margin-top: 2%;
+}
+
+.link-button:hover {
+  background-color: #ffc107;
+  font-color: #212121;
+  font-style: italic;
+}
+
+#reading-list {
+  margin-left: 20%;
+}
+
+.author {
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+.title {
+  font-style: italic;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  code {
+    font-size: 16px;
+  }
+
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 250px;
+  }
+  #navbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 250px;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .link-button {
+    text-align: center;
+    margin-right: auto;
+    margin-top: 2%;
+  }
+
+  a {
+    font-size: 14px;
+    font-family: "Quattrocento Sans", sans-serif;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  #irish {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  header {
+    font-size: 24px;
+  }
+}
